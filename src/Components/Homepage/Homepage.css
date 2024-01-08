@@ -1,0 +1,176 @@
+/* Add the following styles to your CSS file */
+.home {
+    margin-top: 80px;
+    color: #333;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    /* border: 1px solid rgb(246, 10, 10); */
+      /* Set width to 100% of the viewport width */
+  }
+  
+  .container-1 {
+    flex: 70%;
+    flex-basis: calc(33.333% - 5px);
+     padding: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  .container-2 {
+    flex-basis: calc(33.333% - 5px);
+     padding: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+  
+  .sub-container-1,
+  .sub-container-2,
+  .sub-container-3 {
+   display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    box-sizing: border-box;
+     justify-content: center;
+    align-items: center;
+     gap: 2px;
+     margin-bottom: 10px;
+  }
+  
+  .button1 {
+    flex-basis: calc(20% - 10px);
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    background-color: #3746c8;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #1e2d5a;
+    }
+  }
+
+  .button2 {
+    flex-basis: calc(20% - 10px);
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    background-color: #3746c8;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #1e2d5a;
+    }
+  }
+  .button3 {
+    flex-basis: calc(20% - 10px);
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    background-color: #3746c8;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #1e2d5a;
+    }
+  }
+  .button4 {
+    flex-basis: calc(20% - 10px);
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    background-color: #3746c8;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #1e2d5a;
+    }
+  }
+  .button5 {
+    flex-basis: calc(20% - 10px);
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    background-color: #3746c8;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #1e2d5a;
+    }
+  }
+   
+  
+   
+  
+  @media (max-width: 600px) {
+    .container-1,
+    .container-2 {
+      flex: 100%;
+    }
+  
+    .sub-container-1,
+    .sub-container-2,
+    .sub-container-3 {
+      flex-basis: 100%;
+    }
+  
+    .button1 ,
+    .button2,
+    .button3,
+    .button4,
+    .button5 {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .container-1,
+    .container-2 {
+      flex: 100%;
+    }
+  }
+  
+  /* For screens larger than 1024px (Desktop) */
+  @media (min-width: 1025px) {
+    /* No changes, the original styles will apply for desktop screens */
+  }
+  

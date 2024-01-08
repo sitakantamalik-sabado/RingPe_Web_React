@@ -1,0 +1,93 @@
+.login-page-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Images/Background.png');  
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* LoginPage.css */
+
+.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3746C8;
+   
+  }
+  .password-field{
+    /* background-color:#f0f0f0; */
+    /* border-radius: 50px; */
+    width: 100%;
+  }
+  
+  .card {
+    max-width: 600px;
+    width: 70%;
+    background-color: #3746C8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #3746C8;
+    color: #fff;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .logo {
+    height: 90px;
+    width:120px;
+    margin-right: 8px;
+  }
+  .welcome{
+   font-size: 36px; 
+   font-weight: bold;
+   font-family: 'Outfit', sans-serif;
+   padding-left: 20px;
+   /* padding-top: 20px; */
+  }
+  
+  .input {
+   
+    width: 60%;
+    margin-bottom: 16px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  }
+  .input1{
+    width: 63%;
+    margin-bottom: 16px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  }
+  
+  .button {
+     font-weight: bold;
+    width: 30%;
+    padding: 14px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+
+
+  
+  

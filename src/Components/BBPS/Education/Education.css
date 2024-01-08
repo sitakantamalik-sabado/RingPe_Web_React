@@ -1,0 +1,86 @@
+.Housing_view{
+    padding: 0px 0px 0px 40px;
+    width: 60%;
+    justify-content: center;
+    }
+    
+    .plans{
+        display: flex;
+        text-align: center;
+    }
+    
+    .popup1_Housing {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        height: 500px;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .popup_Housing {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        height: 500px;
+        transform: translate(-50%, -50%);
+        background: #2749c7;
+        color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .popup-content {
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      
+      .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      
+    
+    @media only screen and (max-width: 768px) {
+    
+        .Housing_view{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+      
+        .plans{
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: center ;
+        }
+
+        .popup_Housing{
+            width: 100%;
+        }
+
+        .popup1_Housing{
+            width: 100%;
+        }
+      } 
+      

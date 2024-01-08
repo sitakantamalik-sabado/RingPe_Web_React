@@ -1,0 +1,156 @@
+nav {
+    background-color: #3746C8;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    /* Set the navbar to be fixed */
+    width: 100%;
+    /* Take up the full width of the viewport */
+    top: 0;
+    /* Position it at the top of the viewport */
+    z-index: 1000;
+    /* Set a higher z-index to ensure it's on top of other elements */
+}
+
+.logo-image {
+    width: 7%;
+    height: auto;
+    /* Maintain aspect ratio */
+
+}
+.element1 {
+    /* background-color: rgba(136, 136, 136, 0.067); */
+   
+    }
+    .element1:hover {
+    background-color: rgb(220, 220, 220);
+    }
+  
+    .element2 {
+      /* background-color: rgba(136, 136, 136, 0.067); */
+      }
+      .element2:hover {
+      background-color: rgb(220, 220, 220);
+      }
+      .element3 {
+        /* background-color: rgba(136, 136, 136, 0.067); */
+        }
+        .element3:hover {
+        background-color: rgb(220, 220, 220);
+        }
+        .element4 {
+          /* background-color: rgba(136, 136, 136, 0.067); */
+          }
+          .element4:hover {
+          background-color: rgb(220, 220, 220);
+          }
+          .element5 {
+            /* background-color: rgba(136, 136, 136, 0.067); */
+            }
+            .element5:hover {
+            background-color: rgb(220, 220, 220);
+            }
+  
+
+.profile_icon {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    font-weight: bold;
+    width: auto;
+    cursor: pointer;
+    display: flex;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #091e5cdd;
+    }
+}
+.popup_Notification {
+    position: fixed;
+    top: 10%;
+    right: 4%;
+    width: 24%;
+    height: auto;
+    /* transform: translate(-50%, -50%); */
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+  }
+  
+  .notification_style{
+    position: fixed;
+    top: 6%;
+    right: 0;
+    width: 25%;
+    height: auto;
+    background: white;
+    box-flex-group: #f6f8fc;
+    border-radius: 4px;
+    box-shadow: 24;
+    padding: 2px 2px 2px 4px;
+  }
+  
+.modal-page {
+    position: fixed;
+    top: 10%;
+    right: 20px;
+    width: 25%;
+    height: auto;
+    background: white;
+    box-flex-group: #f6f8fc;
+    border-radius: 4px;
+    box-shadow: 24;
+    padding: 2px 2px 2px 20px;
+     
+     
+}
+.modal-page {
+    /* Existing styles */
+  
+    @media (max-width: 768px) {
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    @media (max-width: 600px) {
+      width: 90%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  .notification_style {
+    /* Existing styles */
+  
+    @media (max-width: 768px) {
+      width: 80%;
+    }
+  
+    @media (max-width: 600px) {
+      width: 90%;
+    }
+  }
+  .popup_Notification {
+    /* Existing styles */
+  
+    @media (max-width: 768px) {
+      width: 80%;
+      right: 2%;
+    }
+  
+    @media (max-width: 600px) {
+      width: 90%;
+      right: 1%;
+    }
+  }
